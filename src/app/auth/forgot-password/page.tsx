@@ -5,7 +5,8 @@ import { ArrowLeftIcon, ArrowRightIcon, MessageSquare, LockOpenIcon } from "luci
 import AuthNavbar from "@/components/AuthNavbar";
 import AuthFooter from "@/components/AuthFooter";
 
-// Move EmailNotification outside or keep it as a sub-component
+
+
 function EmailNotification() {
   return (
     <div className="relative w-full max-w-[480px] flex flex-col items-center gap-6">
