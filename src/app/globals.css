@@ -24,3 +24,26 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* globals.css */
+@layer base {
+  * {
+    /* Format: scrollbar-color: [Thumb Color] [Track Color] */
+    scrollbar-width: thin;
+    scrollbar-color: #ace7c2 #f4f6f9; /* green-500 and your background gray */
+  }
+
+  /* Webkit support for Chrome/Safari/Edge */
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #22c55e;
+    border-radius: 20px;
+  }
+}
