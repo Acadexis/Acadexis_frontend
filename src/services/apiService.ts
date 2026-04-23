@@ -35,6 +35,52 @@ export interface LoginResponse {
   tokens: AuthTokens;
 }
 
+// ─── Course Types ─────────────────────────────────────────────────────────────
+
+export interface CurriculumItem {
+  id: string;
+  title: string;
+  duration: string;
+  done: boolean;
+  active: boolean;
+  locked: boolean;
+}
+
+export interface Module {
+  id: string;
+  courseId: string;
+  icon?: string;
+  tag?: string;
+  title: string;
+  description: string;
+  duration?: string;
+  completed?: number;
+  total?: number;
+  studyGroup?: boolean;
+  memberCount?: number;
+}
+
+export interface Course {
+  id: string;
+  title: string;
+  description: string;
+  progress: number;
+  featuredModuleId: string;
+  curriculum: CurriculumItem[];
+}
+
+export interface Recommendation {
+  id: string;
+  courseId: string;
+  studentId: string;
+  body: string;
+  actions: Array<{
+    label: string;
+    primary?: boolean;
+    accent?: boolean;
+  }>;
+}
+
 // ─── Service ──────────────────────────────────────────────────────────────────
 
 const apiService = {
@@ -140,6 +186,35 @@ const apiService = {
         currentPassword,
         newPassword,
       });
+    },
+  },
+
+  // ── Courses ──────────────────────────────────────────────────────────────────
+
+  courses: {
+    /** Get all courses */
+    getAll(): Promise<AxiosResponse<Course[]>> {
+      return apiClient.get<Course[]>("/courses");
+    },
+
+    /** Get a specific course by ID */
+    getById(courseId: string): Promise<AxiosResponse<Course>> {
+      return apiClient.get<Course>(`/courses/${courseId}`);
+    },
+
+    /** Get modules for a course */
+    getModules(courseId: string): Promise<AxiosResponse<Module[]>> {
+      return apiClient.get<Module[]>(`/modules?courseId=${courseId}`);
+    },
+
+    /** Get a specific module by ID */
+    getModuleById(moduleId: string): Promise<AxiosResponse<Module>> {
+      return apiClient.get<Module>(`/modules/${moduleId}`);
+    },
+
+    /** Get recommendations for a course */
+    getRecommendations(courseId: string): Promise<AxiosResponse<Recommendation[]>> {
+      return apiClient.get<Recommendation[]>(`/recommendations?courseId=${courseId}`);
     },
   },
 };

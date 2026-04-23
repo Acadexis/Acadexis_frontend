@@ -255,12 +255,12 @@ export default function LoginPage() {
 
         {/* Footer note */}
         <p className="text-sm text-gray-500">
-          New to the platform?{" "}
+          Don't have an account?{" "}
           <a
-            href="mailto:admin@university.edu"
+            href="/auth/register"
             className="font-medium text-green-600 hover:text-green-700 hover:underline transition-colors"
           >
-            Contact your administrator
+            Register
           </a>
         </p>
 
@@ -282,7 +282,7 @@ export default function LoginPage() {
             ))}
           </div>
           <p className="text-[0.8125rem] text-gray-400">
-            © 2024 The Digital Athenaeum. All academic rights reserved.
+            © {new Date().getFullYear()} The Digital Athenaeum. All academic rights reserved.
           </p>
         </footer>
       </div>

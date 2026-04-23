@@ -11,10 +11,12 @@ import {
   Sparkles,
   LogOut,
   HelpCircle,
+  BarChart,
 } from "lucide-react";
 
 // ─── Nav config ───────────────────────────────────────────────────────────────
 const NAV_ITEMS = [
+  {label: "Overview", href: "/dashboard/student", icon: BarChart},
   { label: "Courses", href: "/dashboard/student/courses", icon: BookOpen },
   { label: "Library", href: "/dashboard/student/library", icon: Library },
   { label: "Study Vault", href: "/dashboard/student/vault", icon: Archive },
@@ -89,7 +91,7 @@ export default function Sidebar({
       {/* AI Tutor button */}
       <button
         onClick={onAITutorClick}
-        className="flex items-center justify-center gap-2 w-full mt-4 py-2.5 px-4 rounded-full bg-green-500 hover:bg-green-600 active:scale-[0.98] text-white text-sm font-semibold transition-all duration-200 shadow-sm shadow-green-200"
+        className="flex items-center justify-center gap-2 w-full mt-4 py-2.5 px-4 rounded-full cursor-pointer bg-green-500 hover:bg-green-600 active:scale-[0.98] text-white text-sm font-semibold transition-all duration-200 shadow-sm shadow-green-200"
       >
         <Sparkles size={15} strokeWidth={2} />
         AI Tutor
@@ -108,9 +110,9 @@ export default function Sidebar({
             // Clear tokens and redirect
             localStorage.removeItem("access_token");
             localStorage.removeItem("refresh_token");
-            window.location.href = "/login";
+            window.location.href = "/auth/login";
           }}
-          className="flex items-center gap-2.5 px-3 py-2 text-xs text-gray-400 hover:text-red-500 rounded-lg hover:bg-red-50 transition-colors w-full text-left"
+          className="flex items-center gap-2.5 px-3 py-2 text-xs text-gray-400 hover:text-red-500 cursor-pointer rounded-lg hover:bg-red-50 transition-colors w-full text-left"
         >
           <LogOut size={14} strokeWidth={1.8} />
           Logout

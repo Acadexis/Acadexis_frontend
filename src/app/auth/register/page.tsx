@@ -8,12 +8,6 @@ export default function RoleSelectPage() {
 
   return (
     <main className="min-h-screen flex flex-col bg-[#eef2f0] px-4">
-      {/* Top nav */}
-      <nav className="flex justify-center pt-6 pb-2">
-        <span className="text-sm font-medium text-[#0f173e] tracking-wide">
-          The Academic Curator
-        </span>
-      </nav>
 
       {/* Hero */}
       <section className="flex flex-col items-center text-center mt-10 gap-4">
@@ -21,7 +15,7 @@ export default function RoleSelectPage() {
           <Landmark size={28} strokeWidth={1.6} />
         </div>
 
-        <h1 className="text-4xl sm:text-5xl font-bold text-[#0f173e] tracking-tight leading-[1.15] font-serif max-w-[520px]">
+        <h1 className="text-4xl sm:text-5xl font-bold text-[#0f173e] tracking-tight leading-[1.15] font-serif max-w-[900px]">
           Welcome to Academic Curator
         </h1>
 
@@ -83,11 +77,10 @@ export default function RoleSelectPage() {
       </div>
 
       {/* Footer */}
-      <footer className="mt-auto pt-10 pb-6 flex flex-col sm:flex-row items-center justify-between gap-3 max-w-[700px] mx-auto w-full">
+      <footer className="mt-auto pt-10 pb-6 flex flex-col sm:flex-row items-center justify-between gap-2 max-w-[900px] mx-auto w-full">
         <p className="text-xs text-gray-400 order-last sm:order-first">
-          © 2024 The Academic Curator. All rights reserved.
+          © {new Date().getFullYear()} The Academic Curator. All rights reserved.
         </p>
-        <div className="flex items-center gap-5">
           {["Terms of Service", "Privacy Policy", "Help Center"].map((t) => (
             <a
               key={t}
@@ -106,7 +99,7 @@ export default function RoleSelectPage() {
               Log in
             </a>
           </span>
-        </div>
+        
       </footer>
     </main>
   );

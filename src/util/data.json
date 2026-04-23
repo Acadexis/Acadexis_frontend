@@ -1,0 +1,1078 @@
+{
+  "courses": [
+    {
+      "id": "course-001",
+      "title": "Data Structures",
+      "description": "A comprehensive exploration of abstract data types and the algorithms that manage them. Master complexity, optimization, and spatial reasoning.",
+      "progress": 64,
+      "featuredModuleId": "module-001-featured",
+      "curriculum": [
+        {
+          "id": "curriculum-001-01",
+          "title": "Introduction to Complexity",
+          "duration": "20 mins",
+          "done": true,
+          "active": false,
+          "locked": false
+        },
+        {
+          "id": "curriculum-001-02",
+          "title": "Big O Notation & Complexity",
+          "duration": "45 mins",
+          "done": false,
+          "active": true,
+          "locked": false
+        },
+        {
+          "id": "curriculum-001-03",
+          "title": "Arrays & Linked Lists",
+          "duration": "35 mins",
+          "done": false,
+          "active": false,
+          "locked": false
+        },
+        {
+          "id": "curriculum-001-04",
+          "title": "Stacks & Queues",
+          "duration": "30 mins",
+          "done": false,
+          "active": false,
+          "locked": false
+        },
+        {
+          "id": "curriculum-001-05",
+          "title": "Hash Tables",
+          "duration": "40 mins",
+          "done": false,
+          "active": false,
+          "locked": true
+        },
+        {
+          "id": "curriculum-001-06",
+          "title": "Trees & Heaps",
+          "duration": "50 mins",
+          "done": false,
+          "active": false,
+          "locked": true
+        }
+      ]
+    },
+    {
+      "id": "course-002",
+      "title": "Web Development Fundamentals",
+      "description": "Master HTML, CSS, and JavaScript to build responsive, interactive web applications. Learn modern frameworks and best practices.",
+      "progress": 48,
+      "featuredModuleId": "module-002-featured",
+      "curriculum": [
+        {
+          "id": "curriculum-002-01",
+          "title": "HTML Essentials",
+          "duration": "25 mins",
+          "done": true,
+          "active": false,
+          "locked": false
+        },
+        {
+          "id": "curriculum-002-02",
+          "title": "CSS Layouts & Flexbox",
+          "duration": "40 mins",
+          "done": true,
+          "active": false,
+          "locked": false
+        },
+        {
+          "id": "curriculum-002-03",
+          "title": "JavaScript DOM Manipulation",
+          "duration": "50 mins",
+          "done": false,
+          "active": true,
+          "locked": false
+        },
+        {
+          "id": "curriculum-002-04",
+          "title": "Async & Promises",
+          "duration": "45 mins",
+          "done": false,
+          "active": false,
+          "locked": false
+        },
+        {
+          "id": "curriculum-002-05",
+          "title": "React Fundamentals",
+          "duration": "60 mins",
+          "done": false,
+          "active": false,
+          "locked": false
+        },
+        {
+          "id": "curriculum-002-06",
+          "title": "RESTful APIs",
+          "duration": "55 mins",
+          "done": false,
+          "active": false,
+          "locked": true
+        }
+      ]
+    },
+    {
+      "id": "course-003",
+      "title": "Database Design & SQL",
+      "description": "Learn relational database design principles, SQL queries, indexing strategies, and optimization techniques.",
+      "progress": 72,
+      "featuredModuleId": "module-003-featured",
+      "curriculum": [
+        {
+          "id": "curriculum-003-01",
+          "title": "RDBMS Concepts",
+          "duration": "30 mins",
+          "done": true,
+          "active": false,
+          "locked": false
+        },
+        {
+          "id": "curriculum-003-02",
+          "title": "SQL SELECT Statements",
+          "duration": "35 mins",
+          "done": true,
+          "active": false,
+          "locked": false
+        },
+        {
+          "id": "curriculum-003-03",
+          "title": "JOINs & Subqueries",
+          "duration": "50 mins",
+          "done": true,
+          "active": false,
+          "locked": false
+        },
+        {
+          "id": "curriculum-003-04",
+          "title": "Advanced Indexing",
+          "duration": "45 mins",
+          "done": false,
+          "active": true,
+          "locked": false
+        },
+        {
+          "id": "curriculum-003-05",
+          "title": "Database Normalization",
+          "duration": "40 mins",
+          "done": false,
+          "active": false,
+          "locked": false
+        },
+        {
+          "id": "curriculum-003-06",
+          "title": "Query Optimization",
+          "duration": "55 mins",
+          "done": false,
+          "active": false,
+          "locked": false
+        }
+      ]
+    },
+    {
+      "id": "course-004",
+      "title": "Machine Learning Essentials",
+      "description": "Introduction to ML algorithms, supervised learning, classification, regression, and practical applications with Python.",
+      "progress": 35,
+      "featuredModuleId": "module-004-featured",
+      "curriculum": [
+        {
+          "id": "curriculum-004-01",
+          "title": "ML Concepts & Theory",
+          "duration": "40 mins",
+          "done": true,
+          "active": false,
+          "locked": false
+        },
+        {
+          "id": "curriculum-004-02",
+          "title": "Supervised Learning Basics",
+          "duration": "50 mins",
+          "done": false,
+          "active": true,
+          "locked": false
+        },
+        {
+          "id": "curriculum-004-03",
+          "title": "Linear Regression",
+          "duration": "45 mins",
+          "done": false,
+          "active": false,
+          "locked": false
+        },
+        {
+          "id": "curriculum-004-04",
+          "title": "Classification Algorithms",
+          "duration": "55 mins",
+          "done": false,
+          "active": false,
+          "locked": false
+        },
+        {
+          "id": "curriculum-004-05",
+          "title": "Decision Trees & Ensemble",
+          "duration": "60 mins",
+          "done": false,
+          "active": false,
+          "locked": true
+        },
+        {
+          "id": "curriculum-004-06",
+          "title": "Deep Learning Introduction",
+          "duration": "70 mins",
+          "done": false,
+          "active": false,
+          "locked": true
+        }
+      ]
+    },
+    {
+      "id": "course-005",
+      "title": "Cloud Computing with AWS",
+      "description": "Deploy, scale, and manage applications on Amazon Web Services. Learn EC2, S3, Lambda, RDS, and more.",
+      "progress": 56,
+      "featuredModuleId": "module-005-featured",
+      "curriculum": [
+        {
+          "id": "curriculum-005-01",
+          "title": "AWS Fundamentals",
+          "duration": "35 mins",
+          "done": true,
+          "active": false,
+          "locked": false
+        },
+        {
+          "id": "curriculum-005-02",
+          "title": "EC2 & Virtual Machines",
+          "duration": "50 mins",
+          "done": true,
+          "active": false,
+          "locked": false
+        },
+        {
+          "id": "curriculum-005-03",
+          "title": "S3 Storage Solutions",
+          "duration": "40 mins",
+          "done": false,
+          "active": true,
+          "locked": false
+        },
+        {
+          "id": "curriculum-005-04",
+          "title": "Lambda & Serverless",
+          "duration": "45 mins",
+          "done": false,
+          "active": false,
+          "locked": false
+        },
+        {
+          "id": "curriculum-005-05",
+          "title": "RDS & Databases",
+          "duration": "55 mins",
+          "done": false,
+          "active": false,
+          "locked": false
+        },
+        {
+          "id": "curriculum-005-06",
+          "title": "Security & IAM",
+          "duration": "50 mins",
+          "done": false,
+          "active": false,
+          "locked": true
+        }
+      ]
+    },
+    {
+      "id": "course-006",
+      "title": "Mobile App Development",
+      "description": "Build cross-platform mobile applications using React Native and Flutter. Deploy to iOS and Android.",
+      "progress": 41,
+      "featuredModuleId": "module-006-featured",
+      "curriculum": [
+        {
+          "id": "curriculum-006-01",
+          "title": "Mobile Development Intro",
+          "duration": "30 mins",
+          "done": true,
+          "active": false,
+          "locked": false
+        },
+        {
+          "id": "curriculum-006-02",
+          "title": "React Native Setup",
+          "duration": "35 mins",
+          "done": false,
+          "active": true,
+          "locked": false
+        },
+        {
+          "id": "curriculum-006-03",
+          "title": "Components & Navigation",
+          "duration": "50 mins",
+          "done": false,
+          "active": false,
+          "locked": false
+        },
+        {
+          "id": "curriculum-006-04",
+          "title": "State Management",
+          "duration": "45 mins",
+          "done": false,
+          "active": false,
+          "locked": false
+        },
+        {
+          "id": "curriculum-006-05",
+          "title": "API Integration",
+          "duration": "40 mins",
+          "done": false,
+          "active": false,
+          "locked": true
+        },
+        {
+          "id": "curriculum-006-06",
+          "title": "App Deployment",
+          "duration": "55 mins",
+          "done": false,
+          "active": false,
+          "locked": true
+        }
+      ]
+    },
+    {
+      "id": "course-007",
+      "title": "DevOps & CI/CD",
+      "description": "Master continuous integration, continuous deployment, Docker containerization, and Kubernetes orchestration.",
+      "progress": 68,
+      "featuredModuleId": "module-007-featured",
+      "curriculum": [
+        {
+          "id": "curriculum-007-01",
+          "title": "DevOps Philosophy",
+          "duration": "25 mins",
+          "done": true,
+          "active": false,
+          "locked": false
+        },
+        {
+          "id": "curriculum-007-02",
+          "title": "Git & Version Control",
+          "duration": "40 mins",
+          "done": true,
+          "active": false,
+          "locked": false
+        },
+        {
+          "id": "curriculum-007-03",
+          "title": "Docker Basics",
+          "duration": "50 mins",
+          "done": true,
+          "active": false,
+          "locked": false
+        },
+        {
+          "id": "curriculum-007-04",
+          "title": "CI/CD Pipelines",
+          "duration": "55 mins",
+          "done": false,
+          "active": true,
+          "locked": false
+        },
+        {
+          "id": "curriculum-007-05",
+          "title": "Kubernetes Orchestration",
+          "duration": "60 mins",
+          "done": false,
+          "active": false,
+          "locked": false
+        },
+        {
+          "id": "curriculum-007-06",
+          "title": "Monitoring & Logging",
+          "duration": "50 mins",
+          "done": false,
+          "active": false,
+          "locked": false
+        }
+      ]
+    },
+    {
+      "id": "course-008",
+      "title": "Cybersecurity Fundamentals",
+      "description": "Understand security threats, encryption, network security, and best practices to protect systems and data.",
+      "progress": 52,
+      "featuredModuleId": "module-008-featured",
+      "curriculum": [
+        {
+          "id": "curriculum-008-01",
+          "title": "Security Basics",
+          "duration": "30 mins",
+          "done": true,
+          "active": false,
+          "locked": false
+        },
+        {
+          "id": "curriculum-008-02",
+          "title": "Encryption & Cryptography",
+          "duration": "55 mins",
+          "done": true,
+          "active": false,
+          "locked": false
+        },
+        {
+          "id": "curriculum-008-03",
+          "title": "Network Security",
+          "duration": "50 mins",
+          "done": false,
+          "active": true,
+          "locked": false
+        },
+        {
+          "id": "curriculum-008-04",
+          "title": "Authentication & Authorization",
+          "duration": "45 mins",
+          "done": false,
+          "active": false,
+          "locked": false
+        },
+        {
+          "id": "curriculum-008-05",
+          "title": "Vulnerability Assessment",
+          "duration": "60 mins",
+          "done": false,
+          "active": false,
+          "locked": false
+        },
+        {
+          "id": "curriculum-008-06",
+          "title": "Incident Response",
+          "duration": "55 mins",
+          "done": false,
+          "active": false,
+          "locked": true
+        }
+      ]
+    },
+    {
+      "id": "course-009",
+      "title": "Advanced Python Programming",
+      "description": "Deep dive into Python with decorators, generators, metaprogramming, and building production-grade applications.",
+      "progress": 77,
+      "featuredModuleId": "module-009-featured",
+      "curriculum": [
+        {
+          "id": "curriculum-009-01",
+          "title": "Python Advanced Features",
+          "duration": "45 mins",
+          "done": true,
+          "active": false,
+          "locked": false
+        },
+        {
+          "id": "curriculum-009-02",
+          "title": "Decorators & Context Managers",
+          "duration": "50 mins",
+          "done": true,
+          "active": false,
+          "locked": false
+        },
+        {
+          "id": "curriculum-009-03",
+          "title": "Generators & Iterators",
+          "duration": "40 mins",
+          "done": true,
+          "active": false,
+          "locked": false
+        },
+        {
+          "id": "curriculum-009-04",
+          "title": "Metaprogramming",
+          "duration": "60 mins",
+          "done": false,
+          "active": true,
+          "locked": false
+        },
+        {
+          "id": "curriculum-009-05",
+          "title": "Performance Optimization",
+          "duration": "55 mins",
+          "done": false,
+          "active": false,
+          "locked": false
+        },
+        {
+          "id": "curriculum-009-06",
+          "title": "Testing & Debugging",
+          "duration": "45 mins",
+          "done": false,
+          "active": false,
+          "locked": false
+        }
+      ]
+    },
+    {
+      "id": "course-010",
+      "title": "UI/UX Design Principles",
+      "description": "Learn design fundamentals, user research, prototyping, and creating delightful user experiences with Figma.",
+      "progress": 59,
+      "featuredModuleId": "module-010-featured",
+      "curriculum": [
+        {
+          "id": "curriculum-010-01",
+          "title": "Design Thinking Basics",
+          "duration": "35 mins",
+          "done": true,
+          "active": false,
+          "locked": false
+        },
+        {
+          "id": "curriculum-010-02",
+          "title": "User Research Methods",
+          "duration": "50 mins",
+          "done": true,
+          "active": false,
+          "locked": false
+        },
+        {
+          "id": "curriculum-010-03",
+          "title": "Wireframing & Prototyping",
+          "duration": "55 mins",
+          "done": false,
+          "active": true,
+          "locked": false
+        },
+        {
+          "id": "curriculum-010-04",
+          "title": "Color & Typography",
+          "duration": "40 mins",
+          "done": false,
+          "active": false,
+          "locked": false
+        },
+        {
+          "id": "curriculum-010-05",
+          "title": "Accessibility Standards",
+          "duration": "45 mins",
+          "done": false,
+          "active": false,
+          "locked": false
+        },
+        {
+          "id": "curriculum-010-06",
+          "title": "Design Systems",
+          "duration": "60 mins",
+          "done": false,
+          "active": false,
+          "locked": true
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "id": "module-001-featured",
+      "courseId": "course-001",
+      "tag": "CORE CONCEPT",
+      "title": "Big O Notation & Complexity",
+      "description": "Deep dive into algorithmic efficiency. Learn to quantify time and space complexity like a seasoned engineer.",
+      "duration": "45 mins"
+    },
+    {
+      "id": "module-001-01",
+      "courseId": "course-001",
+      "icon": "SortAsc",
+      "title": "Sorting Algorithms",
+      "description": "From QuickSort to MergeSort: understanding the mechanics of efficient ordering.",
+      "completed": 4,
+      "total": 12,
+      "studyGroup": false
+    },
+    {
+      "id": "module-001-02",
+      "courseId": "course-001",
+      "icon": "Network",
+      "title": "Graph Theory",
+      "description": "Modeling relationships. Exploring BFS, DFS, and Dijkstra's shortest path.",
+      "completed": 2,
+      "total": 8,
+      "studyGroup": true,
+      "memberCount": 52
+    },
+    {
+      "id": "module-002-featured",
+      "courseId": "course-002",
+      "tag": "HANDS-ON",
+      "title": "Building Your First React App",
+      "description": "Create a functional React component from scratch with hooks and state management.",
+      "duration": "60 mins"
+    },
+    {
+      "id": "module-002-01",
+      "courseId": "course-002",
+      "icon": "Code",
+      "title": "JavaScript Fundamentals",
+      "description": "Master ES6+ syntax, arrow functions, destructuring, and modern JavaScript patterns.",
+      "completed": 6,
+      "total": 10,
+      "studyGroup": false
+    },
+    {
+      "id": "module-002-02",
+      "courseId": "course-002",
+      "icon": "Palette",
+      "title": "CSS Grid & Responsive Design",
+      "description": "Create mobile-first, responsive layouts using CSS Grid and media queries.",
+      "completed": 3,
+      "total": 9,
+      "studyGroup": true,
+      "memberCount": 38
+    },
+    {
+      "id": "module-003-featured",
+      "courseId": "course-003",
+      "tag": "DATABASE",
+      "title": "Complex Query Optimization",
+      "description": "Learn execution plans, query hints, and strategies for lightning-fast queries.",
+      "duration": "55 mins"
+    },
+    {
+      "id": "module-003-01",
+      "courseId": "course-003",
+      "icon": "Database",
+      "title": "Transaction Management",
+      "description": "Understanding ACID properties, locks, and isolation levels.",
+      "completed": 5,
+      "total": 8,
+      "studyGroup": false
+    },
+    {
+      "id": "module-003-02",
+      "courseId": "course-003",
+      "icon": "Lock",
+      "title": "Database Security",
+      "description": "Implement encryption, access controls, and data protection strategies.",
+      "completed": 4,
+      "total": 7,
+      "studyGroup": true,
+      "memberCount": 29
+    },
+    {
+      "id": "module-004-featured",
+      "courseId": "course-004",
+      "tag": "AI/ML",
+      "title": "Neural Networks Deep Dive",
+      "description": "Understand backpropagation, activation functions, and training optimization.",
+      "duration": "75 mins"
+    },
+    {
+      "id": "module-004-01",
+      "courseId": "course-004",
+      "icon": "BarChart3",
+      "title": "Data Preprocessing",
+      "description": "Handle missing data, outliers, scaling, and feature engineering.",
+      "completed": 2,
+      "total": 6,
+      "studyGroup": false
+    },
+    {
+      "id": "module-004-02",
+      "courseId": "course-004",
+      "icon": "Brain",
+      "title": "Model Evaluation",
+      "description": "Metrics, cross-validation, confusion matrix, ROC curves.",
+      "completed": 1,
+      "total": 5,
+      "studyGroup": true,
+      "memberCount": 44
+    },
+    {
+      "id": "module-005-featured",
+      "courseId": "course-005",
+      "tag": "CLOUD",
+      "title": "Auto-Scaling & Load Balancing",
+      "description": "Design resilient, scalable applications that handle millions of requests.",
+      "duration": "50 mins"
+    },
+    {
+      "id": "module-005-01",
+      "courseId": "course-005",
+      "icon": "CloudLightning",
+      "title": "VPC & Networking",
+      "description": "Setup virtual private clouds, subnets, routing, and network security.",
+      "completed": 4,
+      "total": 8,
+      "studyGroup": false
+    },
+    {
+      "id": "module-005-02",
+      "courseId": "course-005",
+      "icon": "Zap",
+      "title": "Cost Optimization",
+      "description": "Reduce AWS bills through reserved instances and spot pricing.",
+      "completed": 3,
+      "total": 6,
+      "studyGroup": true,
+      "memberCount": 35
+    },
+    {
+      "id": "module-006-featured",
+      "courseId": "course-006",
+      "tag": "MOBILE",
+      "title": "Publishing to App Stores",
+      "description": "Complete guide to submitting apps to Apple App Store and Google Play.",
+      "duration": "40 mins"
+    },
+    {
+      "id": "module-006-01",
+      "courseId": "course-006",
+      "icon": "Smartphone",
+      "title": "Native Modules & Performance",
+      "description": "Bridge to native code, optimize rendering, and reduce bundle size.",
+      "completed": 1,
+      "total": 5,
+      "studyGroup": false
+    },
+    {
+      "id": "module-006-02",
+      "courseId": "course-006",
+      "icon": "Wrench",
+      "title": "Debugging & Testing",
+      "description": "Remote debugging, automated testing, and fixing platform-specific issues.",
+      "completed": 1,
+      "total": 5,
+      "studyGroup": true,
+      "memberCount": 22
+    },
+    {
+      "id": "module-007-featured",
+      "courseId": "course-007",
+      "tag": "DEVOPS",
+      "title": "Advanced Kubernetes Deployments",
+      "description": "StatefulSets, DaemonSets, operators, and production-grade configurations.",
+      "duration": "70 mins"
+    },
+    {
+      "id": "module-007-01",
+      "courseId": "course-007",
+      "icon": "Container",
+      "title": "Infrastructure as Code",
+      "description": "Terraform and Ansible for reproducible, version-controlled infrastructure.",
+      "completed": 5,
+      "total": 9,
+      "studyGroup": false
+    },
+    {
+      "id": "module-007-02",
+      "courseId": "course-007",
+      "icon": "GitBranch",
+      "title": "GitOps Workflows",
+      "description": "Git-driven deployments with ArgoCD and continuous reconciliation.",
+      "completed": 4,
+      "total": 7,
+      "studyGroup": true,
+      "memberCount": 31
+    },
+    {
+      "id": "module-008-featured",
+      "courseId": "course-008",
+      "tag": "SECURITY",
+      "title": "Penetration Testing Basics",
+      "description": "Learn ethical hacking techniques and vulnerability scanning methodologies.",
+      "duration": "65 mins"
+    },
+    {
+      "id": "module-008-01",
+      "courseId": "course-008",
+      "icon": "Shield",
+      "title": "Web Application Security",
+      "description": "SQL injection, XSS, CSRF prevention and secure coding practices.",
+      "completed": 3,
+      "total": 8,
+      "studyGroup": false
+    },
+    {
+      "id": "module-008-02",
+      "courseId": "course-008",
+      "icon": "Lock",
+      "title": "Zero Trust Architecture",
+      "description": "Never trust, always verify—implementing zero trust in your infrastructure.",
+      "completed": 2,
+      "total": 6,
+      "studyGroup": true,
+      "memberCount": 27
+    },
+    {
+      "id": "module-009-featured",
+      "courseId": "course-009",
+      "tag": "ADVANCED",
+      "title": "Async Programming & Concurrency",
+      "description": "Master asyncio, multithreading, multiprocessing, and concurrent patterns.",
+      "duration": "65 mins"
+    },
+    {
+      "id": "module-009-01",
+      "courseId": "course-009",
+      "icon": "Zap",
+      "title": "Design Patterns in Python",
+      "description": "Singleton, Factory, Observer, Strategy—proven solutions to common problems.",
+      "completed": 6,
+      "total": 10,
+      "studyGroup": false
+    },
+    {
+      "id": "module-009-02",
+      "courseId": "course-009",
+      "icon": "Package",
+      "title": "Package Distribution",
+      "description": "Publishing to PyPI, versioning, and maintaining open-source packages.",
+      "completed": 5,
+      "total": 8,
+      "studyGroup": true,
+      "memberCount": 19
+    },
+    {
+      "id": "module-010-featured",
+      "courseId": "course-010",
+      "tag": "DESIGN",
+      "title": "Figma for High-Fidelity Prototyping",
+      "description": "Advanced techniques: components, interactions, design systems.",
+      "duration": "55 mins"
+    },
+    {
+      "id": "module-010-01",
+      "courseId": "course-010",
+      "icon": "Palette",
+      "title": "User Testing & Iteration",
+      "description": "Conduct usability tests, gather feedback, and iterate on designs.",
+      "completed": 4,
+      "total": 7,
+      "studyGroup": false
+    },
+    {
+      "id": "module-010-02",
+      "courseId": "course-010",
+      "icon": "Users",
+      "title": "Design Handoff to Developers",
+      "description": "Specs, components, tokens—creating design that developers love.",
+      "completed": 3,
+      "total": 6,
+      "studyGroup": true,
+      "memberCount": 40
+    }
+  ],
+  "recommendations": [
+    {
+      "id": "rec-001",
+      "courseId": "course-001",
+      "studentId": "student-1",
+      "body": "Based on your performance in the Binary Search Tree quiz, I recommend reviewing Self-Balancing Trees (AVL). You struggled with rotation logic—would you like me to generate a visual step-by-step guide for Left-Right rotations?",
+      "actions": [
+        {
+          "label": "Yes, show visual guide",
+          "primary": true
+        },
+        {
+          "label": "Not now",
+          "primary": false
+        },
+        {
+          "label": "⚡ Ask deeper question",
+          "primary": false,
+          "accent": true
+        }
+      ]
+    },
+    {
+      "id": "rec-002",
+      "courseId": "course-002",
+      "studentId": "student-1",
+      "body": "You've mastered CSS Flexbox! Next logical step is CSS Grid for complex layouts. I noticed you're spending time on React now—Grid will enhance your component styling skills significantly.",
+      "actions": [
+        {
+          "label": "Start Grid Module",
+          "primary": true
+        },
+        {
+          "label": "Maybe later",
+          "primary": false
+        },
+        {
+          "label": "💡 Learn Tailwind CSS",
+          "primary": false,
+          "accent": true
+        }
+      ]
+    },
+    {
+      "id": "rec-003",
+      "courseId": "course-003",
+      "studentId": "student-1",
+      "body": "Your indexing strategy needs work. Query time increased by 40% on your recent lab. Let's optimize with a deep dive into composite indexes and query plans.",
+      "actions": [
+        {
+          "label": "Show me how",
+          "primary": true
+        },
+        {
+          "label": "Skip this",
+          "primary": false
+        },
+        {
+          "label": "🔍 Analyze my queries",
+          "primary": false,
+          "accent": true
+        }
+      ]
+    },
+    {
+      "id": "rec-004",
+      "courseId": "course-004",
+      "studentId": "student-1",
+      "body": "Your linear regression model has high bias. Consider polynomial features or regularization (Ridge/Lasso) to reduce underfitting. Want a comparison visualization?",
+      "actions": [
+        {
+          "label": "Show comparison",
+          "primary": true
+        },
+        {
+          "label": "Not now",
+          "primary": false
+        },
+        {
+          "label": "📊 Run experiments",
+          "primary": false,
+          "accent": true
+        }
+      ]
+    },
+    {
+      "id": "rec-005",
+      "courseId": "course-005",
+      "studentId": "student-1",
+      "body": "You're spending $500/month on unused RDS instances. Consider using Aurora Serverless to save 60%. Should I show you a cost breakdown?",
+      "actions": [
+        {
+          "label": "Show breakdown",
+          "primary": true
+        },
+        {
+          "label": "Not interested",
+          "primary": false
+        },
+        {
+          "label": "💰 Optimization tips",
+          "primary": false,
+          "accent": true
+        }
+      ]
+    },
+    {
+      "id": "rec-006",
+      "courseId": "course-006",
+      "studentId": "student-1",
+      "body": "Your app bundle is 8MB—above best practices. Lazy loading modules could reduce it to 3MB. Ready to optimize?",
+      "actions": [
+        {
+          "label": "Optimize now",
+          "primary": true
+        },
+        {
+          "label": "Later",
+          "primary": false
+        },
+        {
+          "label": "📱 Performance tips",
+          "primary": false,
+          "accent": true
+        }
+      ]
+    },
+    {
+      "id": "rec-007",
+      "courseId": "course-007",
+      "studentId": "student-1",
+      "body": "Your CI/CD pipeline takes 12 minutes. Parallel job execution could cut that to 4 minutes. Want a refactor plan?",
+      "actions": [
+        {
+          "label": "Show me",
+          "primary": true
+        },
+        {
+          "label": "Not now",
+          "primary": false
+        },
+        {
+          "label": "⚡ Advanced pipelines",
+          "primary": false,
+          "accent": true
+        }
+      ]
+    },
+    {
+      "id": "rec-008",
+      "courseId": "course-008",
+      "studentId": "student-1",
+      "body": "Your quiz scores show gaps in authentication protocols. Let's focus on OAuth 2.0 and JWT best practices before moving to incident response.",
+      "actions": [
+        {
+          "label": "Learn OAuth 2.0",
+          "primary": true
+        },
+        {
+          "label": "Skip",
+          "primary": false
+        },
+        {
+          "label": "🔐 Security patterns",
+          "primary": false,
+          "accent": true
+        }
+      ]
+    },
+    {
+      "id": "rec-009",
+      "courseId": "course-009",
+      "studentId": "student-1",
+      "body": "You're not using type hints in your code. Adding Pydantic models will improve reliability and IDE support. Shall we integrate them?",
+      "actions": [
+        {
+          "label": "Add type hints",
+          "primary": true
+        },
+        {
+          "label": "Maybe later",
+          "primary": false
+        },
+        {
+          "label": "🎯 Type checking",
+          "primary": false,
+          "accent": true
+        }
+      ]
+    },
+    {
+      "id": "rec-010",
+      "courseId": "course-010",
+      "studentId": "student-1",
+      "body": "Your wireframes lack accessibility annotations. Let's add ARIA labels and color contrast guidelines before handing off to developers.",
+      "actions": [
+        {
+          "label": "Add accessibility",
+          "primary": true
+        },
+        {
+          "label": "Not now",
+          "primary": false
+        },
+        {
+          "label": "♿ A11y checklist",
+          "primary": false,
+          "accent": true
+        }
+      ]
+    }
+  ]
+}
