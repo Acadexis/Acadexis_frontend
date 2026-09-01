@@ -21,7 +21,7 @@ export default function RoleSelectPage() {
         </button>
 
         <h1 className="text-4xl sm:text-5xl font-bold text-[#0f173e] tracking-tight leading-[1.15] font-serif max-w-[900px]">
-          Welcome to Academic Curator
+          Welcome to Acadexis
         </h1>
 
         <p className="text-gray-500 text-base max-w-[320px] leading-relaxed">
@@ -84,7 +84,7 @@ export default function RoleSelectPage() {
       {/* Footer */}
       <footer className="mt-auto pt-10 pb-6 flex flex-col sm:flex-row items-center justify-between gap-2 max-w-[900px] mx-auto w-full">
         <p className="text-xs text-gray-400 order-last sm:order-first">
-          © {new Date().getFullYear()} The Academic Curator. All rights reserved.
+          © {new Date().getFullYear()} Acadexis. All rights reserved.
         </p>
           {["Terms of Service", "Privacy Policy", "Help Center"].map((t) => (
             <a
